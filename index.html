@@ -1,209 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/ba64d14e0f.js"></script>
-    <link rel="stylesheet" href="./ressources/css/style.css">
-    <title>Css Integration Test</title>
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-            <div class="container-fluid">
-                <a class="logo-text navbar-brand" href="#">Vendo.</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./ressources/img/V.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/ba64d14e0f.js"></script>
+        <link rel="stylesheet" href="./ressources/css/style.css">
+        <title>Css Integration Test</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div class="container-fluid">
+                    <a class="logo-text navbar-brand" href="#">Vendo.</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact-us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-icon d-flex justify-content-center align-items-center gap-3">
+                        <span><i class="fa-regular fa-user"></i></span>
+                        <span class="icon-with-number"><i class="fa-solid fa-cart-shopping"></i><div class="number2"><span class="number">2</span></div></span>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon navbar-togg-bord"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact-us</a>
-                        </li>
-                    </ul>
+                    </button>
+                </div>
+            </nav>
+            <div class="static-side row">
+                <div class="left-side col-lg-4">
+                    <h3>Modern Interior Design Studio</h3>
+                    <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                    <a href="#" class="btn btn-primary btn-shopnow bouton">Shop Now</a>
+                    <a href="#" class="btn btn-success btn-explore bouton">Explore</a>
+                </div>
+                <div class="right-side col-lg-8">
+                    <img src="./ressources/img/couch.png" alt="Meuble" class="header-image">
                 </div>
             </div>
-        </nav>
-        <div class="static-side row">
-            <div class="left-side col-lg-4">
-                <h3>Modern Interior Design Studio</h3>
-                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-                <a href="#" class="btn btn-primary btn-shopnow bouton">Shop Now</a>
-                <a href="#" class="btn btn-success btn-explore bouton">Explore</a>
-            </div>
-            <div class="right-side col-lg-8">
-                <img src="./ressources/img/couch.png" alt="Meuble" class="header-image">
-            </div>
-        </div>
-    </header>
-    <div class="section1">
-        <div class="row">
-            <div class="section1-left-side col-lg-4">
-                <h2 class="title-section">Crafted with excellent material.</h2>
-                <p class="description-section">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-                <a href="#" class="btn btn-primary btn-explore2 bouton">Explore</a>
-            </div>
-            <div class="product-list col-lg-8">
-                <div class="row">
-                    <div class="product1 product col-lg-4">
-                        <div class="image-container">
-                            <img src="./ressources/img/product1.png" alt="Product 1" class="image-product">
-                        </div>
-                        <p class="name-product">Nordic Chair</p>
-                        <p class="price-product">$ 50.00</p>
-                    </div>
-                    <div class="product2 product col-lg-4">
-                        <div class="image-container">
-                            <img src="./ressources/img/product2.png" alt="Product 2" class="image-product">
-                        </div>
-                        <p class="name-product">Kruzo Aero Chair</p>
-                        <p class="price-product">$ 78.00</p>
-                    </div>
-                    <div class="product2 product col-lg-4">
-                        <div class="image-container">
-                            <img src="./ressources/img/product3.png" alt="Product 3" class="image-product">
-                        </div>
-                        <p class="name-product">Ergonomic Chair</p>
-                        <p class="price-product">$ 43.00</p>
-                    </div>
+        </header>
+        <div class="section1">
+            <div class="row">
+                <div class="section1-left-side col-lg-4">
+                    <h2 class="title-section">Crafted with excellent material.</h2>
+                    <p class="description-section">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                    <a href="#" class="btn btn-primary btn-explore2 bouton">Explore</a>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="section2">
-        <div class="row">
-            <div class="section2-left-side col-lg-6">
-                <div class="section2-des">
-                    <h2 class="title-section">Why Choose Us</h2>
-                     <p class="description-section">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-                </div>
-                <div class="advantage-list">
+                <div class="product-list col-lg-8">
                     <div class="row">
-                        <div class="advantage col-lg-6">
-                            <span class="icon-advantage"><i class="fa-solid fa-truck"></i></span>
-                            <div class="circle"></div>
-                            <h2 class="title-section2">Fast & Free shipping</h2>
-                            <p class="description-section2">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. </p>
+                        <div class="product1 product col-lg-4">
+                            <div class="image-container">
+                                <img src="./ressources/img/product1.png" alt="Product 1" class="image-product">
+                            </div>
+                            <p class="name-product">Nordic Chair</p>
+                            <p class="price-product">$ 50.00</p>
                         </div>
-                        <div class="advantage advantage-shop col-lg-6">
-                            <span class="icon-advantage"><i class="fa-solid fa-bag-shopping"></i></span>
-                            <div class="circle"></div>
-                            <h2 class="title-section2">Easy to Shop</h2>
-                            <p class="description-section2">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                        <div class="product2 product col-lg-4">
+                            <div class="image-container">
+                                <img src="./ressources/img/product2.png" alt="Product 2" class="image-product">
+                            </div>
+                            <p class="name-product">Kruzo Aero Chair</p>
+                            <p class="price-product">$ 78.00</p>
                         </div>
-                        <div class="advantage col-lg-6">
-                            <span class="icon-advantage"><i class="fa-solid fa-phone"></i></span>
-                            <div class="circle"></div>
-                            <h2 class="title-section2">24/7 Support</h2>
-                            <p class="description-section2">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. </p>
-                        </div>
-                        <div class="advantage col-lg-6">
-                            <span class="icon-advantage"><i class="fa-solid fa-right-left"></i></span>
-                            <div class="circle"></div>
-                            <h2 class="title-section2">Hassle Free Returns</h2>
-                            <p class="description-section2">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. </p>
+                        <div class="product2 product col-lg-4">
+                            <div class="image-container">
+                                <img src="./ressources/img/product3.png" alt="Product 3" class="image-product">
+                            </div>
+                            <p class="name-product">Ergonomic Chair</p>
+                            <p class="price-product">$ 43.00</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section2-right-side col-lg-6">
-            <img src="./ressources/img/why-choose-us-img.jpg" alt="Image de meuble" class="image-section2-right-side">
-        </div>
-    </div>
-    <footer>
-        <div class="top-section row">
-            <div class="subscription-form col-lg-8">
-                <p><span><i class="fa-solid fa-envelope"></i></span> Subscribe to Newsletter</p>
-                <form class="form-inline">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Enter your name">
+        <div class="section2">
+            <div class="row">
+                <div class="section2-left-side col-lg-5">
+                    <div class="section2-des">
+                        <h2 class="title-section">Why Choose Us</h2>
+                        <p class="description-section">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
                     </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Enter your email">
+                    <div class="advantage-list">
+                        <div class="row">
+                            <div class="advantage col-lg-6">
+                                <span class="icon-advantage"><i class="fa-solid fa-truck"></i></span>
+                                <div class="circle"></div>
+                                <h2 class="title-section2">Fast & Free shipping</h2>
+                                <p class="description-section2">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. </p>
+                            </div>
+                            <div class="advantage advantage-shop col-lg-6">
+                                <span class="icon-advantage"><i class="fa-solid fa-bag-shopping"></i></span>
+                                <div class="circle"></div>
+                                <h2 class="title-section2">Easy to Shop</h2>
+                                <p class="description-section2">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                            </div>
+                            <div class="advantage col-lg-6">
+                                <span class="icon-advantage"><i class="fa-solid fa-phone"></i></span>
+                                <div class="circle"></div>
+                                <h2 class="title-section2">24/7 Support</h2>
+                                <p class="description-section2">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. </p>
+                            </div>
+                            <div class="advantage col-lg-6">
+                                <span class="icon-advantage"><i class="fa-solid fa-right-left"></i></span>
+                                <div class="circle"></div>
+                                <h2 class="title-section2">Hassle Free Returns</h2>
+                                <p class="description-section2">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. </p>
+                            </div>
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-success btn-submit"><i class="fa-regular fa-paper-plane"></i></button>
-                </form>
+                </div>
+                <div class="section2-right-side col-lg-7">
+                    <img src="./ressources/img/why-choose-us-img.jpg" alt="Image de meuble" class="image-section2-right-side">
+                </div>
             </div>
-                
-            <img src="./ressources/img/sofa.png" alt="Image de sofa" class="sofa-image col-lg-4">
         </div>
-        <div class="middle-section row">
-            <h2 class="footer-vendo">Vendo.</h2>
-            <div class="middle-section-left-side col-lg-4">
-                <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
-                <div class="icon-container"><a href="#"><i class="fa-brands fa-facebook-f link-footer"></i></a></div>
-                <div class="icon-container"><a href="#"><i class="fa-solid fa-x link-footer""></i></a></div>
-                <div class="icon-container"><a href="#"><i class="fa-brands fa-instagram link-footer"></i></a></div>
-                <div class="icon-container"><a href="#"><i class="fa-brands fa-linkedin link-footer"></i></a></div>
+        <footer>
+            <div class="top-section row">
+                <div class="subscription-form col-lg-8">
+                    <p><span><i class="fa-solid fa-envelope"></i></span> Subscribe to Newsletter</p>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-success btn-submit"><i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <img src="./ressources/img/sofa.png" alt="Image de sofa" class="sofa-image col-lg-4">
             </div>
-            <div class="middle-section-right-side col-lg-8 row">
-                <div class="footer-menu col-lg-3">
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact-us</a></li>
-                    </ul>
+            <div class="middle-section row">
+                <h2 class="footer-vendo">Vendo.</h2>
+                <div class="middle-section-left-side col-lg-4">
+                    <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
                 </div>
-                <div class="footer-menu col-lg-3">
-                    <ul>
-                        <li><a href="#">Support us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Knowledge base</a></li>
-                        <li><a href="#">Live chat</a></li>
-                    </ul>
+                <div class="middle-section-right-side col-lg-8 row">
+                    <div class="footer-menu col-lg-3 col-xs-6">
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact-us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu col-lg-3">
+                        <ul>
+                            <li><a href="#">Support us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Knowledge base</a></li>
+                            <li><a href="#">Live chat</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu col-lg-3">
+                        <ul>
+                            <li><a href="#">Jobs us</a></li>
+                            <li><a href="#">Our team</a></li>
+                            <li><a href="#">Leadership</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu col-lg-3">
+                        <ul>
+                            <li><a href="#">Nordic Chair</a></li>
+                            <li><a href="#">Kruzo aero</a></li>
+                            <li><a href="#">Ergonomic Chair</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer-menu col-lg-3">
+                <div class="parent-icon-container">
+                    <div class="icon-container"><a href="#"><i class="fa-brands fa-facebook-f link-footer"></i></a></div>
+                    <div class="icon-container"><a href="#"><i class="fa-solid fa-x link-footer""></i></a></div>
+                    <div class="icon-container"><a href="#"><i class="fa-brands fa-instagram link-footer"></i></a></div>
+                    <div class="icon-container"><a href="#"><i class="fa-brands fa-linkedin link-footer"></i></a></div>
+                </div>
+            <div class="trait"></div>
+            <div class="bottom-section row">
+                <p class="col-lg-8">Copyright ©2023. All Rights Reserved. Designed with love by Raiky</p>
+                <div class="col-lg-4">
                     <ul>
-                        <li><a href="#">Jobs us</a></li>
-                        <li><a href="#">Our team</a></li>
-                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div class="footer-menu col-lg-3">
-                    <ul>
-                        <li><a href="#">Nordic Chair</a></li>
-                        <li><a href="#">Kruzo aero</a></li>
-                        <li><a href="#">Ergonomic Chair</a></li>
-                    </ul>
-                </div>
             </div>
-        </div>
-        <div class="trait"></div>
-        <div class="bottom-section row">
-            <p class="col-lg-8">Copyright ©2023. All Rights Reserved. — Designed with love by Raiky</p>
-            <div class="col-lg-4">
-                <ul>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-</body>
-
+        </footer>
+    </body>
 </html>
