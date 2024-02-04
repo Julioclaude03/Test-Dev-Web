@@ -9,6 +9,7 @@ body{
     width: 100%;
     font-family: 'Inter', sans-serif;
     background: #EFF2F1;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -86,6 +87,7 @@ header{
     margin: 20px auto;
 }
 .header-image{
+    margin-left: 50px;
     width: 90%;
 }
 .bouton{
@@ -320,7 +322,6 @@ footer{
 }
 .footer-menu{
     width: 170px;
-    /* background-color: #000; */
 }
 .footer-menu li{
     list-style-type: none;
@@ -352,6 +353,20 @@ footer{
     color: #000000;
     margin-right: 15px;
 }
+@media (max-width:396px){
+    .header-icon{
+        margin-left: -35px;
+    }
+    .section2-left-side .section2-des, .advantage{
+        margin-left: -35px;
+    }
+    .parent-icon-container{
+        margin-left: -15px;
+    }
+    .bottom-section .terms{
+        margin-left: -35px;
+    }
+}
 @media (max-width : 800px) {
     header{
         height: auto;
@@ -365,7 +380,11 @@ footer{
         margin-top: 30px;
         margin-left: 30px;
     }
+    .navbar-toggler{
+        order: 2;
+    }
     .header-icon{
+        order: 1;
         position: relative;
         top: 10px;
         right: -70px;
@@ -406,7 +425,7 @@ footer{
         left: 35%;
     }
     .footer-menu{
-        width: 170px;
+        width: 180px;
         height: auto;
         margin: 20px auto 0 -35px;
     }
@@ -415,6 +434,8 @@ footer{
     }
     .bottom-section p{
         text-align: center;
+        margin-top: 0px;
+        text-align: center;
     }
     .section2-right-side{
         display: none;
@@ -422,10 +443,6 @@ footer{
     .icon-container{
         position: relative;
         left: 18%;
-    }
-    .bottom-section p{
-        margin-top: 0px;
-        text-align: center;
     }
 }
 
